@@ -6,7 +6,7 @@ Sprint A scaffolding for Privy (privacy-first document platform) with:
 
 ## Backend (Django)
 ```bash
-cd /home/runner/work/PRIVYPRINTT/PRIVYPRINTT/backend
+cd backend
 python -m pip install -r requirements.txt
 cp .env.example .env
 python manage.py migrate
@@ -21,7 +21,7 @@ Backend API basics:
 
 ## Frontend (Next.js)
 ```bash
-cd /home/runner/work/PRIVYPRINTT/PRIVYPRINTT/frontend
+cd frontend
 cp .env.example .env.local
 npm install
 npm run dev
